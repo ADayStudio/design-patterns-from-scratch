@@ -1,9 +1,9 @@
-package com.github.abstractfactory.factory;
+package com.github.abstractfactory;
 
 /**
- * 产品A
+ * 产品B
  */
-public abstract class AbstractProductA {
+public abstract class AbstractProductB {
 
     public void method1(){}
 

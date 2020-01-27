@@ -1,4 +1,4 @@
-package com.github.abstractfactory.factory;
+package com.github.abstractfactory;
 
 /**
  * 创建者

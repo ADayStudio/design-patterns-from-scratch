@@ -1,4 +1,4 @@
-package com.github.abstractfactory.factory;
+package com.github.abstractfactory;
 
 public class ProductA2 extends AbstractProductA {
 
