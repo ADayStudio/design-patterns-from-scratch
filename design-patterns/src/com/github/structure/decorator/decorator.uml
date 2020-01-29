@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.decorator</OriginalElement>
+  <nodes>
+    <node x="222.00000000000003" y="356.0">com.github.decorator.Milk</node>
+    <node x="310.5" y="0.0">com.github.decorator.Drink</node>
+    <node x="0.0" y="462.0">com.github.decorator.Client</node>
+    <node x="102.00000000000006" y="164.0">com.github.decorator.Decorator</node>
+    <node x="406.0" y="356.0">com.github.decorator.Espresso</node>
+    <node x="580.0" y="356.0">com.github.decorator.LongBlack</node>
+    <node x="0.0" y="356.0">com.github.decorator.Chocolate</node>
+    <node x="495.75" y="204.5">com.github.decorator.Coffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.decorator.Chocolate" target="com.github.decorator.Decorator">
+      <point x="0.0" y="-30.5" />
+      <point x="101.0" y="331.0" />
+      <point x="152.25000000000006" y="331.0" />
+      <point x="-50.25" y="71.0" />
+    </edge>
+    <edge source="com.github.decorator.Milk" target="com.github.decorator.Decorator">
+      <point x="0.0" y="-30.5" />
+      <point x="304.0" y="331.0" />
+      <point x="252.75000000000006" y="331.0" />
+      <point x="50.25" y="71.0" />
+    </edge>
+    <edge source="com.github.decorator.Espresso" target="com.github.decorator.Coffee">
+      <point x="0.0" y="-30.5" />
+      <point x="483.0" y="331.0" />
+      <point x="534.5" y="331.0" />
+      <point x="-38.75" y="30.5" />
+    </edge>
+    <edge source="com.github.decorator.Decorator" target="com.github.decorator.Drink">
+      <point x="0.0" y="-71.0" />
+      <point x="202.50000000000006" y="139.0" />
+      <point x="349.25" y="139.0" />
+      <point x="-38.75" y="57.0" />
+    </edge>
+    <edge source="com.github.decorator.LongBlack" target="com.github.decorator.Coffee">
+      <point x="0.0" y="-30.5" />
+      <point x="663.5" y="331.0" />
+      <point x="612.0" y="331.0" />
+      <point x="38.75" y="30.5" />
+    </edge>
+    <edge source="com.github.decorator.Coffee" target="com.github.decorator.Drink">
+      <point x="0.0" y="-30.5" />
+      <point x="573.25" y="139.0" />
+      <point x="426.75" y="139.0" />
+      <point x="38.75" y="57.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9079189686924494" x="374.0" y="262.0" />
+  <SelectedNodes>
+    <node>com.github.decorator.Coffee</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
