@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.structure.facade</OriginalElement>
+  <nodes>
+    <node x="179.0" y="375.0">com.github.structure.facade.Rectangle</node>
+    <node x="0.0" y="481.0">com.github.structure.facade.Client</node>
+    <node x="358.0" y="375.0">com.github.structure.facade.Circle</node>
+    <node x="0.0" y="375.0">com.github.structure.facade.Square</node>
+    <node x="179.0" y="264.0">com.github.structure.facade.Shape</node>
+    <node x="0.0" y="0.0">com.github.structure.facade.ShapeMaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.structure.facade.Rectangle" target="com.github.structure.facade.Shape">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.github.structure.facade.Circle" target="com.github.structure.facade.Shape">
+      <point x="0.0" y="-30.5" />
+      <point x="437.5" y="350.0" />
+      <point x="311.5" y="350.0" />
+      <point x="53.0" y="30.5" />
+    </edge>
+    <edge source="com.github.structure.facade.Square" target="com.github.structure.facade.Shape">
+      <point x="0.0" y="-30.5" />
+      <point x="79.5" y="350.0" />
+      <point x="205.5" y="350.0" />
+      <point x="-53.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5320284697508897" x="258.5" y="261.0" />
+  <SelectedNodes>
+    <node>com.github.structure.facade.Shape</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
