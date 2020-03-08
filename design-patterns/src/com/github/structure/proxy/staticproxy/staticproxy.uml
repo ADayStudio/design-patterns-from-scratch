@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.structure.proxy.staticproxy</OriginalElement>
+  <nodes>
+    <node x="183.75" y="0.0">com.github.structure.proxy.staticproxy.TeacherDao</node>
+    <node x="0.0" y="111.0">com.github.structure.proxy.staticproxy.TeachDaoProxy</node>
+    <node x="303.0" y="138.0">com.github.structure.proxy.staticproxy.TeacherDaoImpl</node>
+    <node x="0.0" y="271.0">com.github.structure.proxy.staticproxy.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.structure.proxy.staticproxy.TeachDaoProxy" target="com.github.structure.proxy.staticproxy.TeacherDao">
+      <point x="0.0" y="-57.5" />
+      <point x="141.5" y="86.0" />
+      <point x="224.5" y="86.0" />
+      <point x="-40.75" y="30.5" />
+    </edge>
+    <edge source="com.github.structure.proxy.staticproxy.TeacherDaoImpl" target="com.github.structure.proxy.staticproxy.TeacherDao">
+      <point x="0.0" y="-30.5" />
+      <point x="389.0" y="86.0" />
+      <point x="306.0" y="86.0" />
+      <point x="40.75" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="237.5" y="166.0" />
+  <SelectedNodes>
+    <node>com.github.structure.proxy.staticproxy.TeacherDaoImpl</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
