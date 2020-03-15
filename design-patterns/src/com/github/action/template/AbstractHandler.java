@@ -2,6 +2,9 @@ package com.github.action.template;
 
 public abstract class AbstractHandler<T> {
 
+    /**
+     * 模板方法
+     */
     public final String process(T type, String message){
         if (match(type)){
             process(message);
