@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.action.observer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.github.action.observer.Subject</node>
+    <node x="298.0" y="427.0">com.github.action.observer.Client</node>
+    <node x="0.0" y="427.0">com.github.action.observer.Wether</node>
+    <node x="345.0" y="0.0">com.github.action.observer.Observer</node>
+    <node x="0.0" y="163.0">com.github.action.observer.WetherData</node>
+    <node x="345.0" y="111.0">com.github.action.observer.SinaObserver</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.action.observer.SinaObserver" target="com.github.action.observer.Observer">
+      <point x="0.0" y="-57.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="com.github.action.observer.WetherData" target="com.github.action.observer.Subject">
+      <point x="0.0" y="-109.5" />
+      <point x="0.0" y="56.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="284.0" y="297.0" />
+  <SelectedNodes>
+    <node>com.github.action.observer.WetherData</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
