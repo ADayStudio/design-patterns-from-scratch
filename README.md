@@ -101,6 +101,12 @@
             - 示例
             - 解释器模式使用
         - 状态模式(State Pattern)
-        - 示例
-        - 状态模式使用
+            - 示例
+            - 状态模式使用
+        - 策略模式(Strategy Pattern)
+            - 示例
+            - 策略模式使用
+        - 职责链模式(Chain of Responsibility Pattern)
+            - 示例
+            - 职责链模式使用
 * 从零开始设计模式第5章-其他模式(一种)

@@ -3,22 +3,22 @@
   <ID>JAVA</ID>
   <OriginalElement>com.github.structure.flyweight</OriginalElement>
   <nodes>
-    <node x="0.0" y="111.0">com.github.structure.flyweight.ConcreateWebSite</node>
-    <node x="419.0" y="271.0">com.github.structure.flyweight.User</node>
-    <node x="37.0" y="0.0">com.github.structure.flyweight.WebSite</node>
+    <node x="33.0" y="0.0">com.github.structure.flyweight.WebSite</node>
+    <node x="411.0" y="271.0">com.github.structure.flyweight.User</node>
+    <node x="0.0" y="111.0">com.github.structure.flyweight.ConcreteWebSite</node>
     <node x="0.0" y="271.0">com.github.structure.flyweight.WebSiteFactory</node>
     <node x="0.0" y="431.0">com.github.structure.flyweight.Client</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.github.structure.flyweight.ConcreateWebSite" target="com.github.structure.flyweight.WebSite">
+    <edge source="com.github.structure.flyweight.ConcreteWebSite" target="com.github.structure.flyweight.WebSite">
       <point x="0.0" y="-57.5" />
       <point x="0.0" y="30.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.9140625" x="292.5" y="246.0" />
+  <settings layout="Hierarchic Group" zoom="0.814453125" x="288.5" y="246.0" />
   <SelectedNodes>
-    <node>com.github.structure.flyweight.WebSite</node>
+    <node>com.github.structure.flyweight.ConcreteWebSite</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>

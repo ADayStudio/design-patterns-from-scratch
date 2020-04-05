@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 
-public class ConcreateMediator extends Mediator {
+public class ConcreteMediator extends Mediator {
 
     // 用户集合
     private HashMap<String, User> userMap = new HashMap<>();

@@ -1,6 +1,6 @@
 package com.github.creator.factory;
 
-public class ConcreateProduct2 extends Product {
+public class ConcreteProduct2 extends Product {
 
     @Override
     public void method2() {

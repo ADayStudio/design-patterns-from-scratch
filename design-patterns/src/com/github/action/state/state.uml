@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.action.state</OriginalElement>
+  <nodes>
+    <node x="334.0" y="643.0">com.github.action.state.ThreadContext</node>
+    <node x="295.0" y="510.5">com.github.action.state.DeadState</node>
+    <node x="1077.0" y="497.0">com.github.action.state.NewState</node>
+    <node x="614.0" y="643.0">com.github.action.state.Client</node>
+    <node x="482.0" y="0.0">com.github.action.state.ThreadState</node>
+    <node x="783.0" y="497.0">com.github.action.state.BlockedState</node>
+    <node x="0.0" y="643.0">com.github.action.state.ThreadStatusEnum</node>
+    <node x="482.0" y="484.0">com.github.action.state.RunningState</node>
+    <node x="479.0" y="215.0">com.github.action.state.AbstractThreadState</node>
+    <node x="0.0" y="497.0">com.github.action.state.RunnableState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.action.state.DeadState" target="com.github.action.state.AbstractThreadState">
+      <point x="0.0" y="-30.5" />
+      <point x="378.5" y="464.0" />
+      <point x="565.1" y="464.0" />
+      <point x="-57.39999999999998" y="109.5" />
+    </edge>
+    <edge source="com.github.action.state.BlockedState" target="com.github.action.state.AbstractThreadState">
+      <point x="0.0" y="-44.0" />
+      <point x="920.0" y="464.0" />
+      <point x="679.9" y="464.0" />
+      <point x="57.39999999999998" y="109.5" />
+    </edge>
+    <edge source="com.github.action.state.NewState" target="com.github.action.state.AbstractThreadState">
+      <point x="0.0" y="-44.0" />
+      <point x="1204.0" y="454.0" />
+      <point x="737.3" y="454.0" />
+      <point x="114.79999999999995" y="109.5" />
+    </edge>
+    <edge source="com.github.action.state.RunningState" target="com.github.action.state.AbstractThreadState">
+      <point x="0.0" y="-57.0" />
+      <point x="0.0" y="109.5" />
+    </edge>
+    <edge source="com.github.action.state.RunnableState" target="com.github.action.state.AbstractThreadState">
+      <point x="0.0" y="-44.0" />
+      <point x="137.5" y="454.0" />
+      <point x="507.7" y="454.0" />
+      <point x="-114.80000000000001" y="109.5" />
+    </edge>
+    <edge source="com.github.action.state.AbstractThreadState" target="com.github.action.state.ThreadState">
+      <point x="0.0" y="-109.5" />
+      <point x="0.0" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8865638766519823" x="665.5" y="434.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

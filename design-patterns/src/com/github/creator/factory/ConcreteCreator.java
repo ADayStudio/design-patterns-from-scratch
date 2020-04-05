@@ -1,7 +1,7 @@
 package com.github.creator.factory;
 
 
-public class ConcreateCreator extends Creator {
+public class ConcreteCreator extends Creator {
 
     @Override
     public <T extends Product> T createProduct(Class<T> clazz) {

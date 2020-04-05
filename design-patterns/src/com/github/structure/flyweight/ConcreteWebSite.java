@@ -1,10 +1,10 @@
 package com.github.structure.flyweight;
 
-public class ConcreateWebSite extends WebSite {
+public class ConcreteWebSite extends WebSite {
 
     private String type = "";
 
-    public ConcreateWebSite(String type){
+    public ConcreteWebSite(String type){
         this.type = type;
     }
 
