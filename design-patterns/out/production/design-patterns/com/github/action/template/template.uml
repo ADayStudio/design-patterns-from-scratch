@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.action.template</OriginalElement>
+  <nodes>
+    <node x="359.0" y="321.0">com.github.action.template.Client</node>
+    <node x="0.0" y="321.0">com.github.action.template.MessageTypeEnum</node>
+    <node x="345.0" y="189.0">com.github.action.template.OrderHandler</node>
+    <node x="0.0" y="189.0">com.github.action.template.WareHouseHandler</node>
+    <node x="214.0" y="0.0">com.github.action.template.AbstractHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.action.template.OrderHandler" target="com.github.action.template.AbstractHandler">
+      <point x="0.0" y="-43.5" />
+      <point x="507.5" y="164.0" />
+      <point x="395.5" y="164.0" />
+      <point x="60.5" y="69.5" />
+    </edge>
+    <edge source="com.github.action.template.WareHouseHandler" target="com.github.action.template.AbstractHandler">
+      <point x="0.0" y="-43.5" />
+      <point x="162.5" y="164.0" />
+      <point x="274.5" y="164.0" />
+      <point x="-60.5" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6844181459566075" x="335.0" y="243.0" />
+  <SelectedNodes>
+    <node>com.github.action.template.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

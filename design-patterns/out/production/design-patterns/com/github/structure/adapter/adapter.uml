@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.adapter</OriginalElement>
+  <nodes>
+    <node x="300.0" y="111.0">com.github.adapter.MediaAdapter</node>
+    <node x="195.5" y="0.0">com.github.adapter.MediaPlayer</node>
+    <node x="245.0" y="408.0">com.github.adapter.Mp4Player</node>
+    <node x="0.0" y="124.5">com.github.adapter.AudioPlayer</node>
+    <node x="0.0" y="408.0">com.github.adapter.VlcPlayer</node>
+    <node x="0.0" y="540.0">com.github.adapter.Client</node>
+    <node x="122.5" y="271.0">com.github.adapter.AdvancedMediaPlayer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.adapter.VlcPlayer" target="com.github.adapter.AdvancedMediaPlayer">
+      <point x="0.0" y="-43.5" />
+      <point x="112.5" y="383.0" />
+      <point x="178.75" y="383.0" />
+      <point x="-56.25" y="43.5" />
+    </edge>
+    <edge source="com.github.adapter.Mp4Player" target="com.github.adapter.AdvancedMediaPlayer">
+      <point x="0.0" y="-43.5" />
+      <point x="357.5" y="383.0" />
+      <point x="291.25" y="383.0" />
+      <point x="56.25" y="43.5" />
+    </edge>
+    <edge source="com.github.adapter.MediaAdapter" target="com.github.adapter.MediaPlayer">
+      <point x="0.0" y="-57.5" />
+      <point x="492.0" y="86.0" />
+      <point x="376.25" y="86.0" />
+      <point x="60.25" y="30.5" />
+    </edge>
+    <edge source="com.github.adapter.AudioPlayer" target="com.github.adapter.MediaPlayer">
+      <point x="0.0" y="-44.0" />
+      <point x="140.0" y="86.0" />
+      <point x="255.75" y="86.0" />
+      <point x="-60.25" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7938808373590982" x="342.0" y="300.5" />
+  <SelectedNodes>
+    <node>com.github.adapter.AudioPlayer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

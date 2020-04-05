@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.structure.proxy.dynamicproxy</OriginalElement>
+  <nodes>
+    <node x="0.0" y="111.0">com.github.structure.proxy.dynamicproxy.TeacherDaoImpl</node>
+    <node x="4.5" y="0.0">com.github.structure.proxy.dynamicproxy.TeacherDao</node>
+    <node x="0.0" y="217.0">com.github.structure.proxy.dynamicproxy.Client</node>
+    <node x="217.0" y="0.0">com.github.structure.proxy.dynamicproxy.ProxyFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.structure.proxy.dynamicproxy.TeacherDaoImpl" target="com.github.structure.proxy.dynamicproxy.TeacherDao">
+      <point x="0.0" y="-30.5" />
+      <point x="0.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="221.5" y="139.0" />
+  <SelectedNodes>
+    <node>com.github.structure.proxy.dynamicproxy.TeacherDao</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

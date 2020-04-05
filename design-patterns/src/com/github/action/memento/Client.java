@@ -1,4 +1,4 @@
-package com.github.action.memonto;
+package com.github.action.memento;
 
 public class Client {
 

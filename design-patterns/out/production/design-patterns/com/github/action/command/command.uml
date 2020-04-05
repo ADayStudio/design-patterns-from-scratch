@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.action.command</OriginalElement>
+  <nodes>
+    <node x="432.0" y="323.0">com.github.action.command.LightReceiver</node>
+    <node x="264.5" y="0.0">com.github.action.command.Command</node>
+    <node x="0.0" y="323.0">com.github.action.command.Invoker</node>
+    <node x="628.0" y="323.0">com.github.action.command.Client</node>
+    <node x="198.0" y="137.0">com.github.action.command.LightOnCommand</node>
+    <node x="529.0" y="137.0">com.github.action.command.LightOffCommand</node>
+    <node x="0.0" y="164.0">com.github.action.command.NoCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.action.command.NoCommand" target="com.github.action.command.Command">
+      <point x="0.0" y="-43.5" />
+      <point x="89.0" y="112.0" />
+      <point x="294.1666666666667" y="112.0" />
+      <point x="-59.333333333333314" y="43.5" />
+    </edge>
+    <edge source="com.github.action.command.LightOffCommand" target="com.github.action.command.Command">
+      <point x="0.0" y="-70.5" />
+      <point x="685.0" y="112.0" />
+      <point x="412.83333333333337" y="112.0" />
+      <point x="59.33333333333337" y="43.5" />
+    </edge>
+    <edge source="com.github.action.command.LightOnCommand" target="com.github.action.command.Command">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="43.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="420.5" y="297.0" />
+  <SelectedNodes>
+    <node>com.github.action.command.LightReceiver</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

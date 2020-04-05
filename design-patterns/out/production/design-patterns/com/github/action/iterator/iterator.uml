@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.github.action.iterator</OriginalElement>
+  <nodes>
+    <node x="333.0" y="641.0">com.github.action.iterator.Department</node>
+    <node x="0.0" y="641.0">com.github.action.iterator.OutPut</node>
+    <node x="293.0" y="177.0">com.github.action.iterator.InfoCollege</node>
+    <node x="0.0" y="403.0">com.github.action.iterator.ComputerCollegeIterator</node>
+    <node x="152.0" y="0.0">com.github.action.iterator.College</node>
+    <node x="596.0" y="641.0">com.github.action.iterator.Client</node>
+    <node x="400.0" y="403.0">com.github.action.iterator.InfoCollegeIterator</node>
+    <node x="0.0" y="164.0">com.github.action.iterator.ComputerCollege</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.github.action.iterator.ComputerCollege" target="com.github.action.iterator.College">
+      <point x="0.0" y="-97.0" />
+      <point x="136.5" y="139.0" />
+      <point x="220.25" y="139.0" />
+      <point x="-68.25" y="57.0" />
+    </edge>
+    <edge source="com.github.action.iterator.InfoCollege" target="com.github.action.iterator.College">
+      <point x="0.0" y="-84.0" />
+      <point x="440.5" y="139.0" />
+      <point x="356.75" y="139.0" />
+      <point x="68.25" y="57.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="403.0" y="391.0" />
+  <SelectedNodes>
+    <node>com.github.action.iterator.Department</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

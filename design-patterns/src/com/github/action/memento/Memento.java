@@ -1,4 +1,4 @@
-package com.github.action.memonto;
+package com.github.action.memento;
 
 /**
  * 备忘录对象，负责保存状态

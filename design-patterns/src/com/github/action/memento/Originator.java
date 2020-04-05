@@ -1,4 +1,4 @@
-package com.github.action.memonto;
+package com.github.action.memento;
 
 /**
  * 需要保存状态的对象
