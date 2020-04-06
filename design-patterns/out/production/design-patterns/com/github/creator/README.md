@@ -1,4 +1,4 @@
-## 1.创建型模式(5种)
+## 创建型模式(5种)
 * 单例模式(Singleton Pattern)
 * 工厂模式(Factory Pattern)
 * 抽象工厂模式(Abstract Factory Pattern)

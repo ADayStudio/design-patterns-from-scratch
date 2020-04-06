@@ -1,6 +1,10 @@
 # design-patterns-from-scratch
 
-[从零开始设计模式 ](http://yuumasan.com/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
+从零开始设计模式系列 · 源代码
+
+请结合
+[《从零开始设计模式》](http://yuumasan.com/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
+一起食用
 
 * 从零开始设计模式第0章-认识设计模式
     1. 有趣的故事
@@ -110,3 +114,7 @@
             - 示例
             - 职责链模式使用
 * 从零开始设计模式第5章-其他模式(一种)
+     1. 其他模式(1种)
+        - 空对象模式(Null Object Pattern)
+            - 示例
+            - 空对象模式使用

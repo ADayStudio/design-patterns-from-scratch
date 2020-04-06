@@ -1,4 +1,4 @@
-## 1.行为型模式(7种)
+## 行为型模式(11种)
 * 模板模式(Template Pattern)
 * 命令模式(Command Pattern)
 * 访问者模式(Visitor Pattern)

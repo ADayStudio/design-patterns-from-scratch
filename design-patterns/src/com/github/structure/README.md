@@ -1,4 +1,4 @@
-## 1.结构型模式(7种)
+## 结构型模式(7种)
 * 适配器模式(Adapter Pattern)
 * 桥接模式(Bridge Pattern)
 * 装饰器模式(Decorator Pattern)
