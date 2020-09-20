@@ -3,7 +3,7 @@
 从零开始设计模式系列 · 源代码
 
 请结合
-[《从零开始设计模式》](http://yuumasan.com/categories/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/)
+[《从零开始设计模式》](https://github.com/AkaneMurakawa/akane-note/tree/master/%F0%9F%8D%B0%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
 一起食用
 
 * 从零开始设计模式第0章-认识设计模式
